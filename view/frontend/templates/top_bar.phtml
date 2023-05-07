@@ -1,0 +1,13 @@
+<?php
+/**
+ * @var \Polywood\CustomerInfo\Block\CustomerInfo $block
+ */
+?>
+<div class="top-bar-customer-info">
+  <p>
+    <?php $quoteEntityId = $block->getQuoteEntityId(); ?>
+    <?php if($quoteEntityId) {?> 
+      <?php echo 'Quote ID: ' . $quoteEntityId; ?>
+    <?php } ?> 
+  </p>
+</div>
