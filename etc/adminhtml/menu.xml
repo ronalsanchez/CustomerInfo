@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
    <menu>
-     <add id="Polywood_CustomerInfo::view_customercart" title="View Customer Cart" module="Polywood_CustomerInfo" sortOrder="50" action="customer/group" resource="Magento_Customer::manage" parent="Magento_Customer::customer"/>
+     <add id="Polywood_CustomerInfo::viewcustomercart" title="View Customer Cart" module="Polywood_CustomerInfo" sortOrder="50" action="polywood_customerinfo/viewcustomercart" resource="Magento_Customer::manage" parent="Magento_Customer::customer"/>
    </menu>
 </config>
