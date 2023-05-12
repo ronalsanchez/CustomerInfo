@@ -7,4 +7,12 @@
             </argument>
         </arguments>
     </type>
+    
+    <type name="Polywood\CustomerInfo\Ui\Component\Listing\DataProvider">
+        <arguments>
+            <argument name="collection" xsi:type="object">Magento\Quote\Model\ResourceModel\Quote\Item\Collection</argument>
+        </arguments>
+    </type>
+    
+    
 </config>

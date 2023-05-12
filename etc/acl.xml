@@ -2,9 +2,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
 	<acl>
 		<resources>
+
+              
 			<resource id="Magento_Backend::admin">
 				<resource id="Polywood_CustomerInfo::viewcustomercart" sortOrder="10" title="View Customer Cart">
 				</resource>
+        <resource id="Polywood_CustomerInfo::view_customer_cart" title="View Customer Cart" sortOrder="100"/>
 			</resource>
 		</resources>
 	</acl>
